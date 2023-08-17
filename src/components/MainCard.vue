@@ -75,14 +75,15 @@ p {
 .main-container {
   display: flex;
   flex-direction: row;
-  background-color: #9c9595;
-  align-items: flex-start;
+  background-color: var(--cerulean);
 }
 .main-container_main-info {
   padding: 20px;
   margin: 20px;
+  width: 30%;
 }
 .main-container_about {
   margin: 20px;
+  width: 70%;
 }
 </style>

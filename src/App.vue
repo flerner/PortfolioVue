@@ -3,15 +3,14 @@ import MainCard from "./components/MainCard.vue";
 </script>
 
 <template>
-  <main>
-    <div class="main-container">
-      <MainCard />
-    </div>
-  </main>
+  <div class="flex-container"><MainCard /></div>
 </template>
 
 <style scoped>
-.main-container {
+.flex-container {
   display: flex;
+  justify-content: center;
+}
+#app {
 }
 </style>
